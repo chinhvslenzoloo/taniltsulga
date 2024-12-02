@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="game-container">
+      <div id="board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+      </div>
+    </div>
+    <p id="message"></p>
+    <button onclick="resetGame()">Reset Game</button>
+
+    <script>
+      let board = Array(9).fill(null);
+      const winningComb = [
+        [0, 1, 2],
+        [3, 4, 5],
+        [6, 7, 8],
+        [1, 4, 7],
+        [2, 4, 6],
+        [2, 5, 8],
+        [0, 4, 8],
+      ];
+      let currentPlayer = "X";
+      const cells = document.querySelectorAll(".cell");
+
+      for (i = 0; i < cells.length; i++) {
+        // console.log("ggg");
+        cells[i].addEventListener("click", handleClick);
+      }
+      function handleClick(event) {
+        const index = event.target.dataset.index;
+        event.target.innerText = currentPlayer;
+
+        draw(currentPlayer);
+        if(checkWin()){
+            console.log("win")
+        }
+        else if (currentPlayer === "X") {
+          currentPlayer = "O";
+        } else {
+          currentPlayer = "X";
+        }
+      }
+      function checkWin() {
+        for (i = 0; i < winningComb.length; i++) {
+          let [a, b, c] = winningComb[i];
+          return board[a] && board[b] === board[b] && board[a] === board[c];
+        }
+      }
+
+      function draw(a) {
+        board.unshift(a);
+        console.log(board);
+      }
+    </script>
+  </body>
+</html>
