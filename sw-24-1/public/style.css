@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.header .navigations{
+    height: 100%;
+    max-width: 1344px;
+    width: 13344px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header .navigations .child{
+    flex-grow: 1;
+}
+.header .navigations .logo{
+    display: flex;
+    align-items: center;
+}
+.header .navigations .logo img{
+    width: 110px;
+    height: 32px;
+    object-fit: contain;
+}
+.header .navigations .menu .menu-items{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.header .navigations .menu .menu-items .menu-item{
+    display: flex;
+    gap: 10px;
+}
+.header .navigations .buttons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header .navigations .buttons button{
+    border: none;
+    background-color: #fff;
+    padding: 9px;
+}
+.black-button{
+    background-color: #000!important;
+    color: #fff;
+}
+ .hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+ }
+ .hero .hero-container{
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+ }
+ .hero .hero-container .hero-Text{
+    flex: 1;
+ }
+ .hero .hero-container .hero-Text .text{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+ }
+ .hero .hero-container .hero-Text .text h1{
+    color: #ff9126;
+    font-size: 14px;
+ }
+
+ .hero .hero-container .hero-Text h1{
+    font-size: 64px;
+    margin-top: 12px;
+    letter-spacing: .64px;
+    line-height: 72px;
+ }
+ .hero .hero-container .hero-Text p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+ }
+ .hero .hero-container .hero-Text a.start{
+    padding: 18px 40px;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4060ea;
+    /* margin-top: 40px; */
+ }
+ .hero .hero-container .hero-picture{
+    flex: 1;
+ }
+ .social-proof{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .social-proof .social-proof-container{
+    max-width: 935px;
+    width: 935px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+ }
+ .social-proof .social-proof-container .social-proof-layout{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-top: 42px;
+ }
+ .social-proof .social-proof-container .social-proof-layout .social-proof-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+ }
+ .social-proof .social-proof-container .social-proof-layout .social-proof-card .social-proof-image{
+    display: flex;
+    justify-content: center;
+ }
+ .social-proof .social-proof-container .social-proof-layout .social-proof-card .rating{
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  align-items: center;
+ }
+
+ .social-proof .social-proof-container .social-proof-layout .social-proof-card .rating p{
+    font-size: 18px;
+ }
+ .social-proof .social-proof-container .social-proof-layout .social-proof-card .rating p span{
+    font-size: 12px;
+ }
+.feature-tab{
+    padding-top: 160px;
+    padding-bottom: 168px;
+    display: flex;
+    justify-content: center;
+}
+.feature-tab .feature-tab-container{
+    height: 996px;
+    max-width: 1320px;
+    background-color: #e4f0ec;
+    border: .6px solid #1a1a1a;
+    flex: 1;
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 40px 150px 50px;
+}
+.feature-tab .feature-tab-container .feature-tabs{
+    margin-top: 48px;
+}
+.feature-tab .feature-tab-container .feature-tabs .feature-tab-menu{
+    display: flex;
+    background-color: #fff;
+    width: 509px;
+    padding: 8px;
+
+}
+.feature-tab .feature-tab-container .feature-tabs .feature-tab-menu .feature-tab-menu-item{
+    padding: 12px 20px;
+    font-size: 18px;
+    text-align: center;
+    flex:1;
+}
+
+.feature-tab .feature-tab-container .feature-tabs .feature-tab-menu .feature-tab-menu-item.active{
+    background-color: #000;
+    color:#fff;
+}
