@@ -1,0 +1,836 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    background-color:hsl(0deg 0% 7.1% / 1);
+}
+.container{
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid white;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    background-color: hsl(0deg 0% 7.1% / 1);
+}
+.container .child1{
+    display: flex;
+    gap: 40px;
+    
+}
+.container .child1 img{
+    width: 149px;
+    height: 40px;
+  
+    
+}
+.container .child1 .menu{
+    display: flex;
+    gap: 20px;
+}
+.container .child1 .menu p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}   
+.container .child2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container .child2 .button1{
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+    color: rgb(138, 138, 138);
+    
+}
+.container .child2 .button1:hover{
+    background-color: rgba(38, 38, 38, 0.91);
+    color: white;
+}
+.container .child2 .button2{
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color:rgba(29, 29, 29, 0.91) ;
+    cursor: pointer;
+    border: 1px;
+    border-color: rgb(138, 138, 138);
+    border: 1px solid;
+}
+.container .child2 .button2:hover{
+    background-color:rgba(38, 38, 38, 0.91) ;
+    border-color: white;
+}
+.container .child2 .button3{
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color:rgba(29, 29, 29, 0.91) ;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(0, 128, 68);
+    background-color: rgb(0, 98, 53);
+}
+.container .child2 .button3:hover{
+    background-color:rgb(5, 160, 88) ;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.container2 .child3 img{
+    width: 452px;
+    height: 28px;
+    margin-bottom: 25px;
+}
+.container2 .child4{
+    margin-bottom: 10px;
+}
+.container2 .child4 h1{
+    font-size: 70px;
+    color: white;
+    font-family: sans-serif;
+    margin: 0%;
+}
+.container2 .child4 .garchig2{
+    color:rgb(5, 160, 88) ;
+    text-align: center;
+}
+.container2 .child5{
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.container2 .child5 p{
+    text-align: center;
+}
+.container2 .child6{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 65px;
+}
+.container2 .child6 .button3{
+    padding: 5px 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color:rgba(29, 29, 29, 0.91) ;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(0, 128, 68);
+    background-color: rgb(0, 98, 53);
+}
+.container2 .child6 .button4{
+    padding: 5px 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color:rgba(29, 29, 29, 0.91) ;
+    cursor: pointer;
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);;
+    background-color: rgba(38, 38, 38, 0.91);
+}
+.container2 .child6 .button4:hover{
+    background-color:rgba(56, 56, 56, 0.91) ;
+    border-color: white;
+    transform: scale(1.1);
+}
+.container2 .child6 .button3:hover{
+    background-color:rgb(5, 160, 88) ;
+    transform: scale(1.1);
+}
+.container2 .child7 img{
+    width: 512px;
+    height: 100px;
+}
+.container3{
+    width: 1110;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 5px;
+}
+.container3 .baby img{
+    width: 1110px;
+    height: 398px;
+}
+.container3 .baby2 img{
+    width: 1110px;
+    height: 398px;
+}
+.container3 .baby3{
+    width: 1110px;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+}
+.container3 .baby3 .GARCHIG{
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.container3 .baby3 .GARCHIG2{
+    color: rgb(127, 125, 125);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.container3 .baby4{
+    width: 1110px;
+    margin-top: 185px;
+    display: flex;
+    gap: 50px;
+}
+.container3 .baby4 .name .GARCHIG3{
+    font-size: 35px;
+    color: rgb(127, 125, 125);
+    font-family: sans-serif;
+    margin-bottom: 0%;
+}
+.container3 .baby4 .name .GARCHIG4{
+    font-size: 35px;
+    color:white;
+    font-family: sans-serif;
+    margin-top: 0%;
+}
+.container3 .baby4 .zurag img{
+    width: 600px;
+    height: 40px;
+}
+.container3 .baby4 .zurag{
+    display: flex;
+    align-items: center;
+}
+.container3 .baby5{
+    width: 1110px;
+    margin-top: 185px;
+    display: flex;
+    gap: 450px;
+    align-items: end;
+    
+}
+.container3 .baby5 .mochir .navch1 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:rgb(127, 125, 125) ;
+}
+.container3 .baby5 .mochir .navch2 h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+}
+.container3 .baby5 .mochir .navch3 .ner p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:rgb(127, 125, 125) ;
+    margin-bottom: 1%;
+}
+.container3 .baby5 .mochir .navch3 .ner1{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:rgb(127, 125, 125) ;
+    margin: 0%;
+}
+.container3 .baby5 .mochir1{
+    display: flex;
+    gap: 10px;
+}
+.container3 .baby5 .mochir1 .tovchluur{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgb(0, 98, 53);
+    border: 1px solid;
+    border-color: rgb(0, 128, 68);
+    height: 30px;
+}
+.container3 .baby5 .mochir1 .tovchluur:hover{
+    background-color:rgb(5, 160, 88) ;
+    transform: scale(1.1);
+}
+.container3 .baby5 .mochir1 .tovchluur1{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgba(38, 38, 38, 0.91);
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);
+    height: 30px;
+}
+.container3 .baby5 .mochir1 .tovchluur1:hover{
+    background-color:rgba(56, 56, 56, 0.91) ;
+    border-color: white;
+    transform: scale(1.1);
+}
+.containar4{
+    width: 100%;
+    display: grid; 
+    grid-template-rows: 140px 140px  ;
+    grid-template-columns: 210px 210px 210px 210px 210px 210px 210px 210px;
+    gap: 10px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    align-content: stretch;
+    margin-top: 50px;
+    justify-content: start;
+    margin: 0%;
+}
+.containar4 .item1{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end:3 ;
+    background-color: rgba(38, 38, 38, 0.91);
+    
+}
+.containar4 .item2{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(38, 38, 38, 0.91);
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end:4 ;
+}
+.containar4 .item3{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(38, 38, 38, 0.91);
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end:4 ;
+}
+.containar4 .item4 {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(38, 38, 38, 0.91);
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end:6 ;
+}
+.containar4 .item5{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(38, 38, 38, 0.91);
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.containar4 .item6{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(38, 38, 38, 0.91);
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+.containar4 .item7{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(38, 38, 38, 0.91);
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:2 ;
+    grid-row-end: 3;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+.containar4 .item8{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(38, 38, 38, 0.91);
+    border-radius: 20px;
+    border: 1px solid white;
+    align-content: center;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+.container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 300px;
+}
+.container5 .product1 h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+    margin: 0%;
+}
+.container5 .product2 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:rgb(127, 125, 125) ;
+}
+.container5 .product3{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.container5 .product3 .tovchluur3{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgba(38, 38, 38, 0.91);
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);
+    height: 30px;
+}
+.container5 .product3 .tovchluur3:hover{
+    background-color:rgba(56, 56, 56, 0.91) ;
+    border-color: white;
+    transform: scale(1.1);
+} 
+.container5 .product3 .tovchluur4{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgba(38, 38, 38, 0.91);
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);
+    height: 30px;
+}
+.container5 .product3 .tovchluur4:hover{
+    background-color:rgba(56, 56, 56, 0.91) ;
+    border-color: white;
+    transform: scale(1.1);
+}
+.container6{
+    display: grid;
+    grid-template-columns:394px 394px 394px ;
+    grid-template-rows: 303px 303px ;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.container6 .item .items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+
+}
+.container6 .item .items1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+
+}
+.container6 .item .items2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+
+}
+.container6 .item .items3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+
+}
+.container6 .item .items4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+
+}
+.container6 .item .items5 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+
+}
+
+
+.container7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+.container7 .gear1{
+    text-align: center;
+}
+.container7 .gear1 .new h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 0%;
+} .container7 .gear1 .new1 h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(138, 138, 138);
+    margin-top: 0%;
+}
+.container7 .gear2{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.container7 .gear2 .pen{
+    padding: 5px 20px;
+    height: 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    background: transparent;
+}
+.container7 .gear2 .pen:hover{
+    transform: scale(1.1);
+} 
+.container7 .gear2 .pen1{
+    padding: 5px 20px;
+    height: 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+    cursor: pointer;
+    background: transparent;
+}
+.container7 .gear2 .pen1:hover{
+    transform: scale(1.1);
+    border: 1px solid white;
+    color: white;
+} 
+.container7 .gear2 .pen2{
+    padding: 5px 20px;
+    height: 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+    cursor: pointer;
+    background: transparent;
+}
+.container7 .gear2 .pen2:hover{
+    transform: scale(1.1);
+    border: 1px solid white;
+    color: white;
+}
+.container7 .gear3 {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.container7 .gear3 .list p{
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.container8{
+    width: 100%;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+.container8 .photo img{
+    width: 75%;
+    border-radius: 20px;
+    border: 1px solid rgb(138, 138, 138);
+}
+.container9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.container9 .name1 h1{
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 0%;
+}
+.container9 .name2 p{
+    font-size: 15px;
+    color:rgb(127, 125, 125) ;
+    font-family: sans-serif;
+}
+.container9 .name3{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.container9 .name3 .button5{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgba(38, 38, 38, 0.91);
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);
+    height: 30px;
+}
+.container9 .name3 .button5:hover{
+    background-color:rgba(56, 56, 56, 0.91) ;
+    border-color: white;
+    transform: scale(1.1);
+}
+.container9 .name3 .button6{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgba(38, 38, 38, 0.91);
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);
+    height: 30px;
+}
+.container9 .name3 .button6:hover{
+    background-color:rgba(56, 56, 56, 0.91) ;
+    border-color: white;
+    transform: scale(1.1);
+}
+
+.container10{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container11 .ban{
+    display: flex;
+
+}
+.container11 .ban .garchig7{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(127, 125, 125);
+}
+.container11 .ban .garchig8{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+}
+.container11 .ban1{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.container11 .ban1 .button7{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgb(0, 98, 53);
+    border: 1px solid;
+    border-color: rgb(0, 128, 68);
+    height: 38px;
+}
+.container11 .ban1 .button7:hover{
+    background-color:rgb(5, 160, 88) ;
+    transform: scale(1.1);
+}
+.container11 .ban1 .button8{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    background-color:rgba(38, 38, 38, 0.91);
+    border: 1px solid;
+    border-color: rgb(138, 138, 138);
+    height: 38px;
+}
+.container11 .ban1 .button8:hover{
+    background-color:rgba(56, 56, 56, 0.91) ;
+    border-color: white;
+    transform: scale(1.1);
+}
+.container12{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    gap: 80px;
+    align-items: center;
+    margin-top: 130px;
+    border-bottom: 1px solid rgba(56, 56, 56, 0.91);
+}
+.container12 .all{
+    display: flex;
+    gap: 10px;
+}
+.container12 .all .ner7{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+.container12 .all .ner8{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(5, 160, 88);
+}
+.container12 .all1{
+    display: flex;
+    gap: 40px;
+}
+.container12 .all1 .ner9{
+    display: flex;
+    gap: 5px;
+}
+.container12 .all1 .ner9 .ners p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+.container12 .all1 .ner9 .ners1 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(138, 138, 138);
+}
+.container12 .all1 .ner10{
+    display: flex;
+    gap: 5px;
+}
+.container12 .all1 .ner10 .ners2 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+.container12 .all1 .ner10 .ners3 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(138, 138, 138);
+}
+.container13{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+}
+.container13 .choice1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-self: self-start;
+    margin-top: 90px;
+}
+.container13 .choice1 .icon1{
+    width: 160px;
+    height: 40px;
+}
+.container13 .choice1 .icon2{
+    width: 160px;
+    height: 40px;
+}
+.container13 .group{
+    display: flex;
+    gap: 80px;
+}
+.container13 .group .choice2 .menus p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.container13 .group .choice2 .menus1 p{
+    color: rgb(138, 138, 138);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.container13 .group .choice3 .menus2 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.container13 .group .choice3 .menus3 p{
+    color: rgb(138, 138, 138);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.container13 .group .choice4 .menus4 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.container13 .group .choice4 .menus5 p{
+    color: rgb(138, 138, 138);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.container13 .group .choice5 .menus6 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+.container13 .group .choice5 .menus7 p{
+    color: rgb(138, 138, 138);
+    font-family: sans-serif;
+    font-size: 15px;
+}
