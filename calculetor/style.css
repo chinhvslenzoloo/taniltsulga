@@ -1,0 +1,85 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 320px;
+}
+
+.display {
+  width: 100%;
+  height: 60px;
+  font-size: 2em;
+  text-align: right;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button.clear {
+  background-color: #ff4747;
+  color: white;
+}
+
+button.delete {
+  background-color: #ff9f0a;
+  color: white;
+}
+
+button.operation {
+  background-color: #1c73e8;
+  color: white;
+}
+
+button.equals {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button.zero {
+  grid-column: span 2; /* Makes the 0 button span across two columns */
+}
